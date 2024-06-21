@@ -12,7 +12,7 @@ import com.google.firebase.storage.StorageReference
 class ViewUploadedImagesActivity : AppCompatActivity() {
 
     private lateinit var recyclerViewImages: RecyclerView
-    private lateinit var adapter: ImageAdapter
+    private lateinit var adapter: ImagesAdapter
     private lateinit var storageReference: StorageReference
 
     private lateinit var auth: FirebaseAuth
@@ -28,7 +28,7 @@ class ViewUploadedImagesActivity : AppCompatActivity() {
 
         recyclerViewImages = findViewById(R.id.recyclerViewImages)
         recyclerViewImages.layoutManager = GridLayoutManager(this, 3)
-        adapter = ImageAdapter(mutableListOf()) { imageUrl ->
+        adapter = ImagesAdapter(mutableListOf()) { imageUrl ->
             val intent = Intent(this, FullImageActivity::class.java)
             intent.putExtra("IMAGE_URL", imageUrl)
             startActivity(intent)

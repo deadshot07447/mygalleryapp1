@@ -1,6 +1,6 @@
 package com.project.mygalleryapp1
 
-import ImageUploadActivity
+import com.project.mygalleryapp1.ImageUploadActivity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
