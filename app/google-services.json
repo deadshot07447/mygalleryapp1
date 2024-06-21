@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579694334602",
+    "project_id": "mygalleryapp-e80fa",
+    "storage_bucket": "mygalleryapp-e80fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579694334602:android:9b9fa1c92ec5937da5d373",
+        "android_client_info": {
+          "package_name": "com.example.mygalleryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57Xy0iDYOf-dSAhaZLJYFfdVqDlyPS2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579694334602:android:15ac5b5d9a9db0bba5d373",
+        "android_client_info": {
+          "package_name": "com.project.mygalleryapp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57Xy0iDYOf-dSAhaZLJYFfdVqDlyPS2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

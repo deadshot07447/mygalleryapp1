@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyGalleryApp1</string>
+    <string name="image_view" />
+    <string name="open" />
+    <string name="close" />
+    <string name="image" />
+    <string name="logout">Logout</string>
+</resources>
